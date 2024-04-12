@@ -1,0 +1,10 @@
+D:\ProjectDotNet\lab6_prjThanhToan\lab6_prjThanhToan\lab6_prjThanhToan\bin\Debug\lab6_prjThanhToan.exe.config
+D:\ProjectDotNet\lab6_prjThanhToan\lab6_prjThanhToan\lab6_prjThanhToan\bin\Debug\lab6_prjThanhToan.exe
+D:\ProjectDotNet\lab6_prjThanhToan\lab6_prjThanhToan\lab6_prjThanhToan\bin\Debug\lab6_prjThanhToan.pdb
+D:\ProjectDotNet\lab6_prjThanhToan\lab6_prjThanhToan\lab6_prjThanhToan\obj\Debug\lab6_prjThanhToan.csproj.AssemblyReference.cache
+D:\ProjectDotNet\lab6_prjThanhToan\lab6_prjThanhToan\lab6_prjThanhToan\obj\Debug\lab6_prjThanhToan.frmThanhToan.resources
+D:\ProjectDotNet\lab6_prjThanhToan\lab6_prjThanhToan\lab6_prjThanhToan\obj\Debug\lab6_prjThanhToan.Properties.Resources.resources
+D:\ProjectDotNet\lab6_prjThanhToan\lab6_prjThanhToan\lab6_prjThanhToan\obj\Debug\lab6_prjThanhToan.csproj.GenerateResource.cache
+D:\ProjectDotNet\lab6_prjThanhToan\lab6_prjThanhToan\lab6_prjThanhToan\obj\Debug\lab6_prjThanhToan.csproj.CoreCompileInputs.cache
+D:\ProjectDotNet\lab6_prjThanhToan\lab6_prjThanhToan\lab6_prjThanhToan\obj\Debug\lab6_prjThanhToan.exe
+D:\ProjectDotNet\lab6_prjThanhToan\lab6_prjThanhToan\lab6_prjThanhToan\obj\Debug\lab6_prjThanhToan.pdb
