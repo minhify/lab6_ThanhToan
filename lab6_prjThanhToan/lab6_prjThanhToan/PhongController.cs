@@ -10,7 +10,7 @@ namespace lab6_prjThanhToan
 {
     class PhongController
     {
-        List<PhongModel.Phong> GetPhong()
+        public List<PhongModel.Phong> GetPhong()
         {
             List<PhongModel.Phong> listPhong = new List<PhongModel.Phong>();
             try
@@ -34,6 +34,5 @@ namespace lab6_prjThanhToan
             }
             return listPhong;
         }
-
     }
 }

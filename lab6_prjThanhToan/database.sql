@@ -23,7 +23,6 @@ create table KhachHang(
 		references Phong(MaPhong) on delete cascade on update cascade
 );
 
-delete from KhachHang
 
 insert into Phong values
 (N'A1'),
@@ -41,3 +40,6 @@ insert into KhachHang values
 
 
 select * from KhachHang
+select  * from Phong
+
+delete from Phong
