@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\ProjectDotNet\\lab6_prjThanhToan\\lab6_prjThanhToan\\lab6_prjThanhToan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C484284-BA2E-497E-B14D-DAC0A8227715}|lab6_prjThanhToan\\lab6_prjThanhToan.csproj|d:\\projectdotnet\\lab6_prjthanhtoan\\lab6_prjthanhtoan\\lab6_prjthanhtoan\\frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C484284-BA2E-497E-B14D-DAC0A8227715}|lab6_prjThanhToan\\lab6_prjThanhToan.csproj|solutionrelative:frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0C484284-BA2E-497E-B14D-DAC0A8227715}|lab6_prjThanhToan.csproj|D:\\ProjectDotNet\\lab6_prjThanhToan\\lab6_prjThanhToan\\lab6_prjThanhToan\\frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C484284-BA2E-497E-B14D-DAC0A8227715}|lab6_prjThanhToan.csproj|solutionrelative:frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C484284-BA2E-497E-B14D-DAC0A8227715}|lab6_prjThanhToan.csproj|D:\\ProjectDotNet\\lab6_prjThanhToan\\lab6_prjThanhToan\\lab6_prjThanhToan\\frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C484284-BA2E-497E-B14D-DAC0A8227715}|lab6_prjThanhToan.csproj|solutionrelative:frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C484284-BA2E-497E-B14D-DAC0A8227715}|lab6_prjThanhToan.csproj|d:\\projectdotnet\\lab6_prjthanhtoan\\lab6_prjthanhtoan\\lab6_prjthanhtoan\\frmthanhtoan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C484284-BA2E-497E-B14D-DAC0A8227715}|lab6_prjThanhToan.csproj|solutionrelative:frmthanhtoan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C484284-BA2E-497E-B14D-DAC0A8227715}|lab6_prjThanhToan.csproj|d:\\projectdotnet\\lab6_prjthanhtoan\\lab6_prjthanhtoan\\lab6_prjthanhtoan\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C484284-BA2E-497E-B14D-DAC0A8227715}|lab6_prjThanhToan.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmThanhToan.Designer.cs",
+              "DocumentMoniker": "D:\\ProjectDotNet\\lab6_prjThanhToan\\lab6_prjThanhToan\\lab6_prjThanhToan\\frmThanhToan.Designer.cs",
+              "RelativeDocumentMoniker": "frmThanhToan.Designer.cs",
+              "ToolTip": "D:\\ProjectDotNet\\lab6_prjThanhToan\\lab6_prjThanhToan\\lab6_prjThanhToan\\frmThanhToan.Designer.cs",
+              "RelativeToolTip": "frmThanhToan.Designer.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAWwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:36:38.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Database.cs",
+              "DocumentMoniker": "D:\\ProjectDotNet\\lab6_prjThanhToan\\lab6_prjThanhToan\\lab6_prjThanhToan\\Database.cs",
+              "RelativeDocumentMoniker": "Database.cs",
+              "ToolTip": "D:\\ProjectDotNet\\lab6_prjThanhToan\\lab6_prjThanhToan\\lab6_prjThanhToan\\Database.cs",
+              "RelativeToolTip": "Database.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:13:12.323Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmThanhToan.cs",
+              "DocumentMoniker": "D:\\ProjectDotNet\\lab6_prjThanhToan\\lab6_prjThanhToan\\lab6_prjThanhToan\\frmThanhToan.cs",
+              "RelativeDocumentMoniker": "frmThanhToan.cs",
+              "ToolTip": "D:\\ProjectDotNet\\lab6_prjThanhToan\\lab6_prjThanhToan\\lab6_prjThanhToan\\frmThanhToan.cs",
+              "RelativeToolTip": "frmThanhToan.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAIAwwDEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:41:03.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "frmThanhToan.cs [Design]",
               "DocumentMoniker": "D:\\ProjectDotNet\\lab6_prjThanhToan\\lab6_prjThanhToan\\lab6_prjThanhToan\\frmThanhToan.cs",
               "RelativeDocumentMoniker": "frmThanhToan.cs",
@@ -27,10 +82,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T22:45:12.411Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
