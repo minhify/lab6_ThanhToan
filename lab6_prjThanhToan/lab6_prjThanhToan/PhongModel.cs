@@ -8,6 +8,10 @@ class PhongModel
 {
     public PhongModel() { }
 
-    public int _maPhong {  get; set; }
-    public string _tenPhong { get; set; }
+    public class Phong
+    {
+        public int _maPhong {  get; set; }
+        public string _tenPhong { get; set; }
+    }
+    
 }
