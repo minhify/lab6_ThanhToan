@@ -73,6 +73,7 @@
             this.cbSoPhong.Name = "cbSoPhong";
             this.cbSoPhong.Size = new System.Drawing.Size(216, 28);
             this.cbSoPhong.TabIndex = 2;
+            this.cbSoPhong.SelectedIndexChanged += new System.EventHandler(this.cbSoPhong_SelectedIndexChanged);
             // 
             // dtNgay
             // 
@@ -219,6 +220,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmThanhToan";
             this.Text = "Thanh Toán";
+            this.Load += new System.EventHandler(this.frmThanhToan_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
