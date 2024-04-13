@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -57,20 +58,45 @@ namespace lab6_prjThanhToan
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+        try
+        {
+            List<string> emptyFields = new List<string>();
+            if (string.IsNullOrEmpty(tbName.Text))
+                emptyFields.Add("Họ tên");
+            if (string.IsNullOrEmpty(tbSoCMND.Text))
+                emptyFields.Add("Số CMND");
+            if (string.IsNullOrEmpty(tbTienTT.Text))
+                emptyFields.Add("Tiền thanh toán");
+            if (emptyFields.Any())
+            {
+                string empytyError = "Vui lòng điền đầy đủ thông tin: \n- " + string.Join("\n- ", emptyFields);
+                MessageBox.Show(empytyError, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             Database.OpenConnection();
-            string strInsert = "insert into KhachHang values(@SoHD, @TenKH, @SoCMND, @SoTienTT, @NgayTT, @Phong";
-            SqlCommand cmd = new SqlCommand(@strInsert, Database.connection);
+            string strInsert = "INSERT INTO KhachHang VALUES (@TenKH, @SoCMND, @SoTienTT, @NgayTT, @Phong)";
+            SqlCommand cmd = new SqlCommand(strInsert, Database.connection);
 
             SqlParameter[] parameters =
             {
-                new SqlParameter("@SoHD", SqlDbType.Int) { Value = tbSoHD.Text },
                 new SqlParameter("@TenKH", SqlDbType.NVarChar) { Value = tbName.Text },
-                new SqlParameter("@SoCMND", SqlDbType.NVarChar) {Value = tbSoCMND.Text },
-                new SqlParameter("@SoTienTT", SqlDbType.Money) {Value = decimal.Parse(tbTienTT.Text)},
-                new SqlParameter("@NgayTT", SqlDbType.DateTime) { Value = DateTime.Now },
-                new SqlParameter("@Phong", SqlDbType.Int) {Value = cbSoPhong.SelectedIndex}
+                new SqlParameter("@SoCMND", SqlDbType.NVarChar) { Value = tbSoCMND.Text },
+                new SqlParameter("@SoTienTT", SqlDbType.Money) { Value = decimal.Parse(tbTienTT.Text) },
+                new SqlParameter("@NgayTT", SqlDbType.DateTime) { Value =  dtNgay.Value },
+                new SqlParameter("@Phong", SqlDbType.Int) { Value = cbSoPhong.SelectedValue}
             };
             cmd.Parameters.AddRange(parameters);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Insert successfully!!!");
+            Database.CloseConnection();
+            ResetFields(false); 
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
         }
 
         private void btnExit_Click(object sender, EventArgs e)
